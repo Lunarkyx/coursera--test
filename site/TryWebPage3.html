@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <head>
+        <title> Media and Responsive</title>
+        <style>
+          /* -- BASE ELEMENT -- */
+          *{
+              box-sizing: border-box;
+          }
+          body{
+              background-color: rgb(0, 142, 207);   
+                
+          }
+          h1{
+              margin-bottom: 15px;
+          }
+          p{
+             border: 1px solid rgb(0,0,0);
+             background-color:rgb(134, 2, 2);
+             width: 90%;
+             height: 150px;
+             margin-right:auto;
+             margin-left:auto;
+             font-family:Arial, Helvetica, sans-serif;   
+             margin-bottom: 20px; 
+             color: white;
+          }
+          /*#p1{
+              background-color:rgb(253, 60, 60);
+              width:300px ;
+              height:300px ; 
+          } 
+          #p2{
+              background-color:rgb(245, 248, 64);
+              width: 50px;
+              height: 50px;  
+          }*/
+
+          /* SIMPLE RESPONSIVE FRAMEWORK */
+            .ROW{
+                width: 100%;
+            }
+
+            /******* Large Devices *******/
+            @media(min-width: 1200px) {
+            .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12{
+                float: left;
+                border: 1px solid rgb(37, 4, 4);
+            }
+            .box1{
+                width: 8.33%;
+            }
+            .box2{
+                width: 16.66%;
+            }
+            .box3{
+                width: 25%;
+            }
+            .box4{
+                width: 33%;
+            }
+            .box5{
+                width: 41.66%;
+            }
+            .box6{
+                width: 50%;
+            }
+            .box7{
+                width: 58.33%;
+            }
+            .box8{
+                width: 66.66%;
+            }
+            .box9{
+                width: 74.99%;
+            }
+            .box10{
+                width: 83.33%;
+            }
+            .box11{
+                width: 91.66%;
+            } 
+            .box12{
+                width: 100%;
+            }
+
+            }
+
+            /******* Phone Devices *******/
+            @media(min-width: 800px) and (max-width: 1199px){
+            .Bx1, .Bx2, .Bx3, .Bx4, .Bx5, .Bx6, .Bx7, .Bx8, .Bx9, .Bx10, .Bx11, .Bx12{
+                float: left;
+                border: 1px solid rgb(37, 4, 4);
+            }
+            .Bx1{
+                width: 8.33%;
+            }
+            .Bx2{
+                width: 16.66%;
+            }
+            .Bx3{
+                width: 25%;
+            }
+            .Bx4{
+                width: 33%;
+            }
+            .Bx5{
+                width: 41.66%;
+            }
+            .Bx6{
+                width: 50%;
+            }
+            .Bx7{
+                width: 58.33%;
+            }
+            .Bx8{
+                width: 66.66%;
+            }
+            .Bx9{
+                width: 74.99%;
+            }
+            .Bx10{
+                width: 83.33%;
+            }
+            .Bx11{
+                width: 91.66%;
+            }
+            .Bx12{
+                width: 100%;
+            }
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>LETS GET THIS PARTY STARTED!</h1>
+        <div>
+           <p id = "p1"></p>
+           <p id = "p2"></p>    
+        </div>
+
+        <div class = "ROW">
+           <div class ="box3 Bx6"><p>ITEM 1</p></div>
+           <div class ="box3 Bx6"><p>ITEM 2</p></div>
+           <div class ="box3 Bx6"><p>ITEM 3</p></div>
+           <div class ="box3 Bx6"><p>ITEM 4</p></div>
+           <div class ="box3 Bx6"><p>ITEM 5</p></div>
+           <div class ="box3 Bx6"><p>ITEM 6</p></div>
+           <div class ="box3 Bx6"><p>ITEM 7</p></div>
+           <div class ="box3 Bx6"><p>ITEM 8</p></div> 
+           <div class ="box3 Bx6"><p>ITEM 9<</p></div>
+           <div class ="box3 Bx6"><p>ITEM 10</p></div>
+           <div class ="box3 Bx6"><p>ITEM 11</p></div>
+           <div class ="box3 Bx6"><p>ITEM 12</p></div>      
+        </div>
+          
+    </body>
+</html>
