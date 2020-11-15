@@ -1,2 +1,43 @@
+
+/* font-family: 'Recursive', sans-serif;
+font-family: 'Oswald', sans-serif; */
 body{
+    background-color: rgb(255, 124, 205);
+    
+}
+
+.container-fluid{
+    margin: 0px, 5px 12px 5px;
+    background-color: rgb(255, 116, 2);
+    border: solid 2px rgb(24, 33, 39);
+    border-top: 0px;
+
+}
+.navbar-brand #company-name{
+    font-family: 'Recursive', sans-serif;
+    text-shadow: 2px 2px 5px rgb(41, 57, 66) ;
+    color: rgb(2, 67, 87);
+    font-size: 7vw;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar-brand #company-name:hover  {
+    background-color: rgb(235, 81, 34);
+}
+
+
+/******************  SMALLDEVICES *********************/
+
+.navbar button.navbar-toggler{
+    position: relative;
+    left: 90%;
+    bottom: 15px;
+}
+
+.navbar button.navbar-toggler:hover{
+    background-color: rgb(253, 136, 100);
+    border: 1px solid rgb(3, 194, 207);
 }
