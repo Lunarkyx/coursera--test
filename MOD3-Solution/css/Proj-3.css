@@ -44,7 +44,10 @@ body{
 #Main-content > .box-order{
     background-color: rgb(255, 133, 77);
     height: 1000px;
-    margin: 10px 12px 20px 12px;
+    margin: 3%;
+    position: relative;
+    left:0%;
+    float: left;
 }
 
 .Food_Title{
@@ -59,10 +62,20 @@ body{
     margin: 18px 10px 5px 10px;
     padding: 50% 10px 30px 10px;
 }
-.btn-default{
+.box-order a{
     padding: 20px;
-    text-shadow: teal;
     color: wheat;
+    text-align: center;
+    background-color: rgb(28, 202, 255);
+    position: absolute;
+    bottom:10px;
+    
+}
+    
+.box-order a:hover{
+    background-color: rgb(3, 44, 56);
+    color: rgb(0, 106, 138);
+    text-decoration: none;
 }
 
 
