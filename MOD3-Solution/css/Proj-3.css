@@ -1,12 +1,10 @@
 
 /* font-family: 'Recursive', sans-serif;
 font-family: 'Oswald', sans-serif; */
-body{
-    background-color: rgb(255, 124, 205);
-    
-}
 
-.container-fluid{
+
+/***** HEADER *****/
+#Nav_Top{
     margin: 0px, 5px 0px 5px;
     background-color: rgb(255, 116, 2);
     border: solid 2px rgb(24, 33, 39);
@@ -21,10 +19,50 @@ body{
     text-transform: uppercase;
     position: relative;
     right: 5px;
+    
 }
 
-.navbar-brand #company-name:hover  {
+.navbar-brand:hover{
     background-color: rgb(235, 81, 34);
+    text-decoration: none;  
+}
+
+/***** END of HEADER *****/
+
+/***** BODY *****/
+body{
+    background-color: rgb(255, 124, 205);
+    padding-left: 0;
+    font-family: 'Recursive', sans-serif;
+}
+#Middle{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#Main-content > .box-order{
+    background-color: rgb(255, 133, 77);
+    height: 1000px;
+    margin: 10px 12px 20px 12px;
+}
+
+.Food_Title{
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 27, 43);   
+    padding-top: 100px;
+}
+
+.desc{
+    font-family: 'Oswald', sans-serif;
+    margin: 18px 10px 5px 10px;
+    padding: 50% 10px 30px 10px;
+}
+.btn-default{
+    padding: 20px;
+    text-shadow: teal;
+    color: wheat;
 }
 
 
@@ -41,15 +79,16 @@ body{
 }
 .navbar button.navbar-toggler:hover{
     background-color: rgb(253, 136, 100);
-    border: 1px solid rgb(3, 194, 207);
-    
+    border: 1px solid rgb(3, 194, 207); 
+}
+.navbar-collapse{
+    padding-left:0px;
 }
 .nav-list{
-    background-color: ;
+    margin-left:0px;
 }
 .nav-item{
-    text-align: center;
-    font-family:'Recursive', sans-serif;
+    text-align: center;   
     font-size: 3vw;
-    margin-left: -50px
+    margin-left: -50px;
 }
