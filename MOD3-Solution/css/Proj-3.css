@@ -7,11 +7,11 @@ body{
 }
 
 .container-fluid{
-    margin: 0px, 5px 12px 5px;
+    margin: 0px, 5px 0px 5px;
     background-color: rgb(255, 116, 2);
     border: solid 2px rgb(24, 33, 39);
     border-top: 0px;
-
+    
 }
 .navbar-brand #company-name{
     font-family: 'Recursive', sans-serif;
@@ -19,9 +19,8 @@ body{
     color: rgb(2, 67, 87);
     font-size: 7vw;
     text-transform: uppercase;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    position: relative;
+    right: 5px;
 }
 
 .navbar-brand #company-name:hover  {
@@ -30,14 +29,27 @@ body{
 
 
 /******************  SMALLDEVICES *********************/
-
+#navbar-header{
+    clear: both;
+}
 .navbar button.navbar-toggler{
     position: relative;
     left: 90%;
-    bottom: 15px;
+    bottom: 60px;
+    float: left;
+    
 }
-
 .navbar button.navbar-toggler:hover{
     background-color: rgb(253, 136, 100);
     border: 1px solid rgb(3, 194, 207);
+    
+}
+.nav-list{
+    background-color: ;
+}
+.nav-item{
+    text-align: center;
+    font-family:'Recursive', sans-serif;
+    font-size: 3vw;
+    margin-left: -50px
 }
