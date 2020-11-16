@@ -48,6 +48,7 @@ body{
     position: relative;
     left:0%;
     float: left;
+    overflow: hidden;
 }
 
 .Food_Title{
