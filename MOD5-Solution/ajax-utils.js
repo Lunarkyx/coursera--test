@@ -9,7 +9,7 @@ function getRequestObject() {
   if (global.XMLHttpRequest) {
     return (new XMLHttpRequest());
   } 
-  else if (global.ActiveXObject) {
+  else if (global. ActiveXObject) {
     // For very old IE browsers (optional)
     return (new ActiveXObject("Microsoft.XMLHTTP"));
   } 
